@@ -6,10 +6,10 @@ spring:
       client:
         provider:
           spring:
-            authorization-uri: http://idp:8280/oauth2/authorize
-            token-uri: http://idp:8280/oauth2/token
-            user-info-uri: http://idp:8280/user
-            jwk-set-uri: http://idp:8280/oauth2/jwks
+            authorization-uri: http://localhost:8280/oauth2/authorize
+            token-uri: http://localhost:8280/oauth2/token
+            user-info-uri: http://localhost:8280/user
+            jwk-set-uri: http://localhost:8280/oauth2/jwks
             user-name-attribute: sub
         registration:
           spring:
